@@ -73,6 +73,10 @@
 			<properties>
 				<environment>prd</environment>
 			</properties>
+			<activation>
+				<!-- 默认环境 -->
+				<activeByDefault>true</activeByDefault>
+			</activation>
 		</profile>
 	</profiles>
 
